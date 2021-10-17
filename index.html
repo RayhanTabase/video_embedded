@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Youtube_embedded</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfv6RYdCv1WODhAu1-Zn7LgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <nav>
-        <!-- logo -->
-        <!-- search -->
-        <!-- profile/sign_in -->
-        <!-- microphone -->
-        <!-- notification, etx -->
+    <nav class="navbar">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">youtube_I</a>
+        </div>
+        <div class="navbar-search">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
 
+        <div class="navbar-profile-status">
+            Profile
+        </div>
+        </div>
     </nav>
-    <!-- body content -->
-    <div>
-        <!-- left side -->
-        <div>
-            <!-- video player / iframe -->
-            <div></div>
-            <!-- title -->
-            <div></div>
-            <!-- views  date published votes share save -->
-            <div></div>
+    <div class="main-content">
 
-            <div>
-                <!-- user profile/ publisher -->
-                <!-- subscribbers -->
-                <!-- description -->
-                <!-- subscribe button -->
-            </div>
-            
+        <div class="video-viewing">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+            <p class="video-title">Embedding Youtube Video</p>
+            <p class="video-info">
+                <span>
+                    100 views .
+                </span>
+                <span>
+                    10 Oct 2021
+                </span>
+            </p>
 
-            <!-- comments section -->
-            <div></div>
         </div>
 
-
-        <!-- right side -->
-        <div>
-            <!-- similar videos -->
+        <div class="other-videos">
+            <p>Other Videos</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfv6RYdCv1WODhAu1-Zn7LgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfv6RYdCv1WODhAu1-Zn7LgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfv6RYdCv1WODhAu1-Zn7LgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfv6RYdCv1WODhAu1-Zn7LgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
         </div>
+      
     </div>
     
 </body>
